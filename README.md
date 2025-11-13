@@ -19,13 +19,18 @@ The project itself demonstrates actual server deployment, front-end design, and 
 | -------- | ----------- |
 | *Cloud Provider*| Amazon Web Services (AWS EC2) |
 | *Web Server* | Apache2 |
+| *Domain* | musf4rfits.site (via GoDaddy) |
 | *Front-end* | HTML, CSS, JAVASCRIPT |
 | *Version control* | Git/Github for documentation |
 | *SSL Certificate* | Let's encrypt |
+| *Script* | Bash (maintenance automation) |
 
 ## Repository Contents
 | File | Description |
-|--------------|-------------|
-| `README.md` | Project details |
-| `setup.md` | Server configuration guide |
+|------|-------------|
+| `setup.md` | Step-by-step EC2 & Apache setup |
+| `config.md` | Apache & DNS configuration |
 | `script.sh` | Maintenance script |
+| `video.md` | Video walkthrough |
+| `/code` | Website front-end files |
+| `/screenshots` | Setup and website screenshots |
