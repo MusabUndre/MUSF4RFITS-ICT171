@@ -5,7 +5,7 @@
 ---
 
 This script performs **automated maintenance** at musf4rfits.site.  
-It ensures that:  
+It ensures that:
   1. A **backup** of all website files in `/var/www/html` is created with timestamps.  
   2. The **Apache2 server’s status** is checked to confirm it’s running.  
   3. The website’s **online accessibility (HTTP 200 OK)** is verified.  
