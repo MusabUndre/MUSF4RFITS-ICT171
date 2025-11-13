@@ -69,6 +69,7 @@ ___________________________________________________________
 2. Go to My Products → musf4rfits.site → DNS Management.  
 3. Add or edit records:  
 | Type | Name | Value | TTL |
+|---|---|---|---|
 | A | @ | [IP] | Default |
 | CNAME | www | musf4rfits.site | Default |
 4. Save changes.  
