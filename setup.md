@@ -34,7 +34,7 @@ ___________________________________________________________
    sudo systemctl start apache2  
    sudo systemctl enable apache2  
 2. Visit instance IP in a web browser.  
-   https://[IP]  
+   http://[IP]  
    (Default Apache2 welcome page, if successful)  
 
 ___________________________________________________________
@@ -42,7 +42,7 @@ ___________________________________________________________
 ## Step 4: Configuring Firewall
 1. Enable and allow Apache traffic through UFW (Uncomplicated Firewall):  
    sudo ufw allow 'Apache Full'  
-   sudo ufw enable  
+   sudo ufw enable    
    sudo ufw status  
 
 ___________________________________________________________
@@ -54,7 +54,7 @@ ___________________________________________________________
    sudo rm index.html
 3. Clone GitHub repository and copy website files:  
    sudo apt install git -y  
-   sudo git clone https://github.com/musabundre/ICT171-Cloud-Server-Project.git temp  
+   sudo git clone https://github.com/MusabUndre/MUSF4RFIT-ICT171.git temp  
    sudo cp -r temp/code/* /var/www/html/  
    sudo chown -R www-data:www-data /var/www/html  
    sudo systemctl restart apache2  
