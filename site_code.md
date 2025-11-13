@@ -4,7 +4,7 @@
   Handles structure of the homepage.
 
 <details>
-<summary>View full code</summary>
+<summary>View code for index.html</summary>
 ```html
 <!DOCTYPE HTML>
 
@@ -873,12 +873,12 @@ loadPlan();
 </html>
 
 
-## main.css (Primary Stylesheet)  
-Defines page layout, colors, and typography.  
+### main.css (Primary Stylesheet)
+	Defines page layout, colors, and typography.  
 <details>
-	<summary>View code for main.css</summary>
+<summary>View code for main.css</summary>
 	@import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+	@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
 /*
 	Dimension Template by HTML5 UP
@@ -2540,10 +2540,11 @@ input, select, textarea {
 		}
 </details>
 
-## main.js (Core Interactivity Script)
-Controls workout selection and UI interaction.  
-<details> 
-	<summary>View full code</summary>
+### index.html (Main Page)
+  Handles structure of the homepage.
+
+<details>
+<summary>View code for index.html</summary>
 	/*
 	Dimension by HTML5 UP
 	html5up.net | @ajlkn
