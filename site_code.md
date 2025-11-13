@@ -2540,11 +2540,10 @@ input, select, textarea {
 		}
 </details>
 
-### index.html (Main Page)
-  Handles structure of the homepage.
-
+### main.js (Core Interactivity Script)
+Controls workout selection and UI interaction.  
 <details>
-<summary>View code for index.html</summary>
+	<summary>View code for main.js</summary>
 	/*
 	Dimension by HTML5 UP
 	html5up.net | @ajlkn
