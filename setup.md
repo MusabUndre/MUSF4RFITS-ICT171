@@ -26,6 +26,7 @@ ___________________________________________________________
    sudo apt upgrade -y  
 (Ensuring all packages are up to date before installing Apache.)
 
+___________________________________________________________
 
 ## Step 3: Install Apache2 Web Server
 1. Run the following commands in the terminal:  
