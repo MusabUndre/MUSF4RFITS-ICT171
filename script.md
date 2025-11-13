@@ -20,6 +20,10 @@ The script:
 ---
 
 ## To Run
-Simply Upload `script.sh` to the home directory on your EC2 instance:
+1. Upload `script.sh` to the home directory on your EC2 instance:  
    ```bash  
    scp -i "musab-key.pem" script.sh ubuntu@[YOUR_EC2_PUBLIC_IP]:/home/ubuntu/
+2. Make it executable:  
+   chmod +x script.sh
+3. Run manually at any time:  
+   ./script.sh
