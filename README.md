@@ -33,5 +33,5 @@ The project itself demonstrates actual server deployment, front-end design, and 
 | `script.sh` | Maintenance script |
 | `script.md` | Script documentation |
 | `video.md` | Video walkthrough |
-| `/code` | Website front-end files |
+| `site_code.md` | Website front-end files |
 | `/screenshots` | Setup and website screenshots |
