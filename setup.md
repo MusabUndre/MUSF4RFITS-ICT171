@@ -5,15 +5,15 @@ ___________________________________________________________
 ## Step 1: Launching EC2 Instance
 1. Log into **AWS Management Console**.  
 2. Go to **EC2 -> Launch Instance**.  
-3. Choose:
-   - **AMI:** Ubuntu Server 22.04 LTS
-   - **Instance Type:** t3.micro
+3. Choose:  
+   - **AMI:** Ubuntu Server 22.04 LTS  
+   - **Instance Type:** t3.micro  
    - **Key Pair:** musab-key.pem (for SSH access)
 4. Under **Security Group**, allow:
    - Port 22 (SSH)
    - Port 80 (HTTP)
    - Port 443 (HTTPS)
-5. Launch instance.
+5. Launch instance.  
 6. Connect to instance:  
    bash  
    ssh -i "musab-key.pem" ubuntu@[ip]
@@ -21,7 +21,7 @@ ___________________________________________________________
 ___________________________________________________________
 
 ## Step 2: Update system
-1. Run the following commands in the terminal:  
+1. Run following commands in the terminal:  
    sudo apt update  
    sudo apt upgrade -y  
 (Ensuring all packages are up to date before installing Apache.)
@@ -33,7 +33,7 @@ ___________________________________________________________
    sudo apt install apache2 -y  
    sudo systemctl start apache2  
    sudo systemctl enable apache2  
-2. Visit instance IP in a web browser.
+2. Visit instance IP in a web browser.  
    https://[IP]  
    (Default Apache2 welcome page, if successful)  
 
@@ -57,15 +57,15 @@ ___________________________________________________________
    sudo git clone https://github.com/musabundre/ICT171-Cloud-Server-Project.git temp  
    sudo cp -r temp/code/* /var/www/html/  
    sudo chown -R www-data:www-data /var/www/html  
-   sudo systemctl restart apache2
+   sudo systemctl restart apache2  
 4. Test again in browser:  
-   http://[IP]
-   Website should be accessible.
+   http://[IP]  
+5. Website should be accessible.
 
 ___________________________________________________________
 
 ## Step 6: Connecting Domain
-1. Log into GoDaddy account.  
+1. Log in to GoDaddy account.  
 2. Go to My Products → musf4rfits.site → DNS Management.  
 3. Add or edit records:  
 | Type | Name | Value | TTL |
@@ -73,7 +73,7 @@ ___________________________________________________________
 | CNAME | www | musf4rfits.site | Default |
 4. Save changes.  
 5. Once active, test domain:  
-http://musf4rfits.site  
+   http://musf4rfits.site  
 
 ___________________________________________________________
 
