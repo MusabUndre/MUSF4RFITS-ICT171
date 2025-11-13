@@ -24,8 +24,9 @@
 |-------------|------|--------------------|-----------------------------------------|
 | A           | @    | [IP]               | Points main domain to EC2 instance      |
 | CNAME       | www  | musf4rfits.site    | Redirects www to root domain            |
-3. Once saved, wait 15–30 minutes for DNS propagation.
-4. To test DNS resolution:  
+1. Pointing EC2 instance to domain
+2. Once saved, wait 15–30 minutes for DNS propagation.
+3. To test DNS resolution:  
    ping musf4rfits.site
 
 
