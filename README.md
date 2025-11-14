@@ -34,4 +34,5 @@ The project itself demonstrates actual server deployment, front-end design, and 
 | `script.md` | Script documentation |
 | `video.md` | Video walkthrough |
 | `site_code.md` | Website front-end files |
-| `/screenshots` | Setup and website screenshots |
+| `dns_doc.md` | How domain was connected to AWS EC2 server |
+| `ssl.md` | How HTTPS encryption was configured for the website |
